@@ -1,0 +1,9 @@
+Oracle Java Foundations
+-----------------------
+Lesson-by-Lesson Topics:
+Java Data Types
+	What is a variable
+	Numeric data
+	Textual Data
+	Converting between Data Types
+	Keyboard Input

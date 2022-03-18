@@ -1,0 +1,13 @@
+Fundamentals of Java Programming
+--------------------------------
+Lesson Topic:
+Using Data for Computation
+Data
+	Data and their Taxonomy
+	Number Literals
+	Variable Declarations
+	Assigning Values to Variables
+The Primitive DataTypes
+An Introduction to the String DataType 
+	A DataType
+	String Concatenation
