@@ -39,7 +39,7 @@ public class SemanticSimilarity {
     
     public void compute (String[] words1, String[] words2){
         
-        RelatednessCalculator rc1 = new LeacockChodorow(db);
+        RelatednessCalculator rc1 = new WuPalmer(db);
         double[][] s1 = getSimilarityMatrix(words1, words2, rc1);
       
         for (int i = 0; i <= words1.length; i++) {
