@@ -46,7 +46,7 @@ public class IdentifyTopics {
                     //System.out.println("TOPICS CONFIRMED!\n"); //debug output
                     return true;
             }
-        }
+        } 
 
         //System.out.println("INVALID FILE!\n"); //debug output
         return false;
