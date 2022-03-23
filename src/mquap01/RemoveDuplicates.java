@@ -3,7 +3,6 @@
  */
 package mquap01;
 
-import java.io.IOException;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
 
@@ -11,17 +10,14 @@ import java.util.LinkedHashSet;
  *
  * @author Janelle Achondo, Caryl Shainet Parro
  */
-public class RemoveDuplicates extends ReadFile{
+public class RemoveDuplicates{
 
     private LinkedHashSet<String> linkedHashSet;
     private String[] arrWithoutDuplicates;
     private String[] stopwordsList;
     
-    ReadFile f;
     
-    
-    public RemoveDuplicates() throws IOException{ //CONSTRUCTOR
-        f = new ReadFile();
+    public RemoveDuplicates(){ //CONSTRUCTOR
     }
     
     //------------------------------------ ENCAPSULATION FIELDS (GETTERS AND SETTERS)
